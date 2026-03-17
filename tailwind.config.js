@@ -10,7 +10,16 @@ module.exports = {
   ],
   presets: [require("nativewind/preset")],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        "google-sans-regular": ["Google-Sans-Flex-Regular"],
+      },
+      colors: {
+        timberwolf: "#dfddd1",
+        "palm-leaf": "#799852",
+        "dark-moss": "#47622b",
+      },
+    },
   },
   plugins: [],
 };
