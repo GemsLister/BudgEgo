@@ -18,6 +18,7 @@ module.exports = {
         timberwolf: "#dfddd1",
         "palm-leaf": "#799852",
         "dark-moss": "#47622b",
+        olivine: "#9fb877",
       },
     },
   },
