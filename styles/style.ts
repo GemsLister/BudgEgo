@@ -11,11 +11,20 @@ export const Styles = StyleSheet.create({
   },
 
   inputTextSize: {
-    fontSize: rMS(16, 0.5),
+    fontSize: rMS(15, 0.5),
   },
 
   inputFontSize: {
+    padding: rS(9),
+    fontSize: rMS(15, 0.8),
+  },
+
+  buttonViewStyle: {
+    paddingHorizontal: rS(20),
+  },
+
+  touchableOpacityStyle: {
     padding: rS(10),
-    fontSize: rMS(18, 0.8),
+    fontSize: rMS(15, 0.8),
   },
 });
